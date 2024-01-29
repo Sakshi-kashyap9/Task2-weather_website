@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="file:///E:/gunnu/weather_html/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather">
+            <div class="header">
+                <div class="search-box">
+                    <input type="text" class="input-box" placeholder="Enter Your Location">
+
+                    <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+                </div>
+            </div>
+
+            <div class="location-not-found">
+                <h1>Sorry, Location not found!!</h1>
+                <img src="file:///E:/gunnu/weather_html/404.png" alt="error">
+            </div>
+
+            <div class="weather-body">
+                <img src="file:///E:/gunnu/weather_html/warm-98534_1280.webp" alt="weather-image" class="weather-img">
+
+                <div class="weather-box">
+                    <p class="temperature">0°C</p>
+                    <p class="description"> Light Rain </p>
+                </div>
+
+                <div class="weather-details">
+                    <div class="humidity">
+                        <i class="fa-sharp fa-solid fa-droplet"></i>
+                        <div class="text">
+                            <span id="humidity"> 30% </span>
+                            <p>Humidity </p>
+                        </div>
+                    </div>
+
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span id="wind-speed"> 11Km/H </span>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/d9e19fedce.js" crossorigin="anonymous"></script>
+    <script src="file:///E:/gunnu/weather_html/script.js"></script>
+</body>
+
+</html>
